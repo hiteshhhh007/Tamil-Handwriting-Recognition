@@ -11,7 +11,7 @@ To address these challenges, we propose **TamilHRNet**, a novel approach for han
 2. **Words**
 3. **Individual Characters**
 
-This framework applies specialized segmentation models at each phase to extract detailed patterns, significantly enhancing character isolation and recognition. The network’s three stages work in tandem, progressively refining the input data for optimal recognition.
+This framework applies specialized segmentation models at each phase to extract detailed patterns, significantly enhancing character isolation and recognition. The network’s three stages work in tandem, progressively refining the input data for optimal recognition. Once the characters are segmented, is then passed onto the Attention-Backed Neural Network Model which is then used to predict the characters and group them together in the same-way as they appear in the document.
 
 ## Key Features
 - **Attention Mechanisms**: TamilHRNet incorporates attention mechanisms to effectively handle the nuances of Tamil script.
